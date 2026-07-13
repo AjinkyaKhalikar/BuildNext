@@ -1,7 +1,8 @@
+venv/
 .env
 Build1.ipynb
 suggest.py
 ai_tutor.py
 main.py
 python_projects.json
-python_projects_old2.json
+python_projects_old2.json__pycache__/
