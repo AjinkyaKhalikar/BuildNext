@@ -1,0 +1,3146 @@
+{
+  "tiers": [
+    "beginner",
+    "intermediate",
+    "advanced"
+  ],
+  "tracks": [
+    {
+      "id": "foundations",
+      "name": "Python Foundations",
+      "description": "Core Python skills, general CLI tools and software-engineering fundamentals not tied to a specific domain."
+    }, 
+    {
+      "id": "web-backend",
+      "name": "Web Development & Backend Systems",
+      "description": "Build servers, REST APIs, and full backend systems using Flask, FastAPI, databases, and authentication."
+    },
+    {
+      "id": "ai-ml",
+      "name": "AI & Machine Learning",
+      "description": "Apply Python to machine learning, NLP, computer vision, and AI-powered tools, progressing from classic ML algorithms to deep learning and LLM-based systems."
+    },
+    {
+      "id": "automation-devops",
+      "name": "Automation, DevOps & Scripting",
+      "description": "Automate real-world workflows and learn deployment, scheduling, containerization, and CI/CD."
+    },
+    {
+      "id": "security-networking",
+      "name": "Security & Networking",
+      "description": "Work with sockets, encryption, credential storage, and real-time networked applications."
+    }
+  ],
+  "projects": [
+    {
+      "id": "py-found-beg-001",
+      "title": "Calculator",
+      "description": "A CLI calculator that performs basic arithmetic operations based on user input.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 1,
+      "prerequisite_skills": [
+        "Basic Python syntax"
+      ],
+      "new_skills": [
+        "Variables & data types",
+        "Operators & expressions",
+        "Functions - basics"
+      ],
+      "domain": [
+        "cli",
+        "math"
+      ]
+    },
+    {
+      "id": "py-found-beg-002",
+      "title": "Number Guessing Game",
+      "description": "The program picks a random number and the user has to guess it with hints of higher/lower.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Variables & data types"
+      ],
+      "new_skills": [
+        "Conditionals - if/elif/else",
+        "Loops - for/while basics",
+        "random module"
+      ],
+      "domain": [
+        "cli",
+        "games"
+      ]
+    },
+    {
+      "id": "py-found-beg-003",
+      "title": "Rock Paper Scissors",
+      "description": "Classic rock-paper-scissors game against the computer, played in the terminal.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Conditionals - if/elif/else",
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "Functions - return values",
+        "random module"
+      ],
+      "domain": [
+        "cli",
+        "games"
+      ]
+    },
+    {
+      "id": "py-found-beg-004",
+      "title": "Password Generator",
+      "description": "Generates random passwords of configurable length and complexity.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "String manipulation - basics"
+      ],
+      "new_skills": [
+        "String manipulation - concatenation/formatting",
+        "random/secrets module"
+      ],
+      "domain": [
+        "cli",
+        "security"
+      ]
+    },
+    {
+      "id": "py-found-beg-005",
+      "title": "To-Do List CLI",
+      "description": "A terminal app to add, view, complete, and delete tasks, saved between sessions.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Lists - basics",
+        "Loops - for/while basics"
+      ],
+      "new_skills": [
+        "CRUD operations - in-memory",
+        "File I/O - read/write text"
+      ],
+      "domain": [
+        "cli",
+        "productivity"
+      ]
+    },
+    {
+      "id": "py-found-beg-006",
+      "title": "Contact Book",
+      "description": "Store, search, update, and delete contacts with name, phone, and email.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Dictionaries - basics",
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "Dictionaries - nested",
+        "File I/O - read/write text"
+      ],
+      "domain": [
+        "cli",
+        "productivity"
+      ]
+    },
+    {
+      "id": "py-found-beg-007",
+      "title": "BMI Calculator",
+      "description": "Takes height and weight input and calculates Body Mass Index with a category label.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 1,
+      "prerequisite_skills": [
+        "Variables & data types"
+      ],
+      "new_skills": [
+        "Operators & expressions",
+        "Conditionals - if/elif/else"
+      ],
+      "domain": [
+        "cli",
+        "health"
+      ]
+    },
+    {
+      "id": "py-found-beg-008",
+      "title": "Expense Tracker",
+      "description": "Log daily expenses by category and see simple totals/summaries.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Lists - basics",
+        "Dictionaries - basics"
+      ],
+      "new_skills": [
+        "File I/O - read/write text",
+        "Data aggregation - sums/averages"
+      ],
+      "domain": [
+        "cli",
+        "finance"
+      ]
+    },
+    {
+      "id": "py-found-beg-009",
+      "title": "Quiz Application",
+      "description": "A terminal quiz that asks multiple-choice questions and scores the user at the end.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Lists - basics",
+        "Conditionals - if/elif/else"
+      ],
+      "new_skills": [
+        "Dictionaries - nested",
+        "Loops - for/while basics",
+        "Scoring logic"
+      ],
+      "domain": [
+        "cli",
+        "education"
+      ]
+    },
+    {
+      "id": "py-found-beg-010",
+      "title": "Countdown Timer",
+      "description": "A simple countdown timer that displays remaining time and alerts when done.",
+      "tier": "beginner",
+      "track": "foundations",
+      "difficulty_label": "Easy",
+      "difficulty_score": 1,
+      "prerequisite_skills": [
+        "Loops - for/while basics"
+      ],
+      "new_skills": [
+        "time module"
+      ],
+      "domain": [
+        "cli",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-found-int-001",
+      "title": "Student Management System",
+      "description": "Manage student records with add, update, search, and grade-tracking features.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Dictionaries - basics",
+        "File I/O"
+      ],
+      "new_skills": [
+        "Data modeling with classes",
+        "CRUD operations - persistent"
+      ],
+      "domain": [
+        "cli",
+        "database"
+      ]
+    },
+    {
+      "id": "py-found-int-002",
+      "title": "Library Management System",
+      "description": "Track books, members, and due dates with borrowing and return logic.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Classes - basics",
+        "File I/O"
+      ],
+      "new_skills": [
+        "OOP - classes & objects",
+        "Data relationships"
+      ],
+      "domain": [
+        "cli",
+        "database"
+      ]
+    },
+    {
+      "id": "py-found-int-003",
+      "title": "Banking System",
+      "description": "Simulates account creation, deposits, withdrawals, and transaction history.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Classes - basics",
+        "Exception handling - basics"
+      ],
+      "new_skills": [
+        "OOP - encapsulation",
+        "Exception handling - custom exceptions"
+      ],
+      "domain": [
+        "cli",
+        "finance"
+      ]
+    },
+    {
+      "id": "py-found-int-004",
+      "title": "Weather App",
+      "description": "Fetches and displays current weather for a city using a public API.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Functions - basics",
+        "Dictionaries - basics"
+      ],
+      "new_skills": [
+        "requests library",
+        "JSON parsing",
+        "API - basics"
+      ],
+      "domain": [
+        "web",
+        "api"
+      ]
+    },
+    {
+      "id": "py-found-int-005",
+      "title": "Currency Converter",
+      "description": "Converts between currencies using live exchange rates from an API.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "requests library",
+        "API - basics",
+        "Error handling for network calls"
+      ],
+      "domain": [
+        "web",
+        "api",
+        "finance"
+      ]
+    },
+    {
+      "id": "py-found-int-006",
+      "title": "File Organizer",
+      "description": "Automatically sorts files in a folder into subfolders based on file type.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Loops - for/while basics",
+        "File I/O"
+      ],
+      "new_skills": [
+        "os/shutil modules",
+        "Path manipulation"
+      ],
+      "domain": [
+        "automation",
+        "cli"
+      ]
+    },
+    {
+      "id": "py-found-int-007",
+      "title": "PDF Merger",
+      "description": "Merges multiple PDF files into a single document from the command line.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "File I/O",
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "Working with third-party libraries (PyPDF2)",
+        "File handling - binary"
+      ],
+      "domain": [
+        "automation",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-found-int-008",
+      "title": "QR Code Generator",
+      "description": "Generates QR codes from text or URLs and saves them as images.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "Working with third-party libraries (qrcode)",
+        "Image file basics"
+      ],
+      "domain": [
+        "utility"
+      ]
+    },
+    {
+      "id": "py-found-int-009",
+      "title": "SQLite Expense Tracker",
+      "description": "An expense tracker that persists data in a local SQLite database.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "File I/O",
+        "Dictionaries - basics"
+      ],
+      "new_skills": [
+        "SQL basics - SELECT/INSERT/UPDATE",
+        "sqlite3 module"
+      ],
+      "domain": [
+        "database",
+        "finance"
+      ]
+    },
+    {
+      "id": "py-found-int-010",
+      "title": "Web Scraper",
+      "description": "Scrapes and stores article titles/links from a news website.",
+      "tier": "intermediate",
+      "track": "foundations",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Loops - for/while basics",
+        "File I/O"
+      ],
+      "new_skills": [
+        "BeautifulSoup basics",
+        "HTML parsing",
+        "requests library"
+      ],
+      "domain": [
+        "web",
+        "automation"
+      ]
+    },
+    {
+      "id": "py-found-adv-001",
+      "title": "Custom CLI Framework",
+      "description": "Build a lightweight command-line framework (like a mini Click) supporting subcommands and flags.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "OOP - classes & objects",
+        "Decorators - basics"
+      ],
+      "new_skills": [
+        "Decorators - advanced",
+        "argparse internals",
+        "Plugin architecture"
+      ],
+      "domain": [
+        "cli",
+        "frameworks"
+      ]
+    },
+    {
+      "id": "py-found-adv-002",
+      "title": "Regex Engine from Scratch",
+      "description": "Implement a simplified regular expression matcher supporting literals, *, and groups.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "Recursion",
+        "String manipulation"
+      ],
+      "new_skills": [
+        "Finite state machines",
+        "Recursive parsing"
+      ],
+      "domain": [
+        "algorithms",
+        "cli"
+      ]
+    },
+    {
+      "id": "py-found-adv-003",
+      "title": "JSON Parser from Scratch",
+      "description": "Write a JSON parser/serializer without using the built-in json module.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "String manipulation",
+        "Recursion"
+      ],
+      "new_skills": [
+        "Tokenization",
+        "Recursive descent parsing"
+      ],
+      "domain": [
+        "algorithms",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-found-adv-004",
+      "title": "LRU Cache Library",
+      "description": "Implement a reusable Least-Recently-Used cache as a decorator and standalone class.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "OOP - classes & objects",
+        "Dictionaries - advanced"
+      ],
+      "new_skills": [
+        "Data structures - doubly linked lists",
+        "Decorators - advanced"
+      ],
+      "domain": [
+        "algorithms",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-found-adv-005",
+      "title": "Custom ORM (Mini SQLAlchemy)",
+      "description": "Build a small object-relational mapper that maps Python classes to SQLite tables.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "OOP - inheritance",
+        "sqlite3 module"
+      ],
+      "new_skills": [
+        "Metaclasses",
+        "Descriptor protocol",
+        "Query building"
+      ],
+      "domain": [
+        "database",
+        "frameworks"
+      ]
+    },
+    {
+      "id": "py-found-adv-006",
+      "title": "Text-Based Adventure Game Engine",
+      "description": "A reusable engine for building branching text adventures from JSON story files.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "OOP - classes & objects",
+        "File I/O"
+      ],
+      "new_skills": [
+        "State machines",
+        "Game loop design"
+      ],
+      "domain": [
+        "games",
+        "cli"
+      ]
+    },
+    {
+      "id": "py-found-adv-007",
+      "title": "Custom Logging Framework",
+      "description": "Implement a configurable logging library with handlers, formatters, and log levels.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "OOP - classes & objects",
+        "File I/O"
+      ],
+      "new_skills": [
+        "Design patterns - observer",
+        "Multi-destination output"
+      ],
+      "domain": [
+        "utility",
+        "frameworks"
+      ]
+    },
+    {
+      "id": "py-found-adv-008",
+      "title": "Plugin System Architecture",
+      "description": "Build an application core that dynamically discovers and loads plugins at runtime.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "Modules & packages",
+        "OOP - classes & objects"
+      ],
+      "new_skills": [
+        "importlib",
+        "Dynamic module loading",
+        "Entry point design"
+      ],
+      "domain": [
+        "architecture",
+        "cli"
+      ]
+    },
+    {
+      "id": "py-found-adv-009",
+      "title": "Rate Limiter Library",
+      "description": "A reusable rate-limiting decorator/library supporting token bucket and sliding window strategies.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "Decorators - basics",
+        "Threading - basics"
+      ],
+      "new_skills": [
+        "Concurrency primitives",
+        "Algorithm design - token bucket"
+      ],
+      "domain": [
+        "algorithms",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-found-adv-010",
+      "title": "Command-Line Package Manager",
+      "description": "A simplified package manager that resolves dependencies and installs local Python packages.",
+      "tier": "advanced",
+      "track": "foundations",
+      "difficulty_label": "Hard",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "File I/O",
+        "OOP - classes & objects"
+      ],
+      "new_skills": [
+        "Dependency graph resolution",
+        "Version constraint parsing"
+      ],
+      "domain": [
+        "cli",
+        "architecture"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-001",
+      "title": "Iris Flower Classifier",
+      "description": "Classify iris flower species using the K-Nearest Neighbors algorithm on a classic dataset.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Variables & data types",
+        "Lists - basics"
+      ],
+      "new_skills": [
+        "scikit-learn basics",
+        "Train/test split",
+        "KNN algorithm"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-002",
+      "title": "House Price Predictor (Linear Regression)",
+      "description": "Predict house prices from features like size and location using linear regression built from scratch.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Operators & expressions",
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "Linear regression math",
+        "Gradient descent - basics",
+        "numpy basics"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-003",
+      "title": "Titanic Survival Predictor",
+      "description": "Predict passenger survival on the Titanic dataset using logistic regression.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Lists - basics",
+        "Dictionaries - basics"
+      ],
+      "new_skills": [
+        "pandas basics",
+        "Logistic regression",
+        "Data cleaning"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-004",
+      "title": "Spam Email Classifier",
+      "description": "Classify emails as spam or not spam using the Naive Bayes algorithm.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "String manipulation - basics"
+      ],
+      "new_skills": [
+        "Text preprocessing",
+        "Naive Bayes classifier",
+        "Bag-of-words"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-005",
+      "title": "Handwritten Digit Recognizer",
+      "description": "Recognize handwritten digits from the MNIST dataset using scikit-learn.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Lists - basics",
+        "Loops - for/while basics"
+      ],
+      "new_skills": [
+        "scikit-learn classifiers",
+        "Image data as arrays",
+        "Model evaluation"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-006",
+      "title": "Movie Rating Predictor",
+      "description": "Predict a movie's rating from features like genre and budget using regression.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Dictionaries - basics"
+      ],
+      "new_skills": [
+        "pandas basics",
+        "Feature encoding",
+        "Regression evaluation metrics"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-007",
+      "title": "K-Means Customer Segmentation",
+      "description": "Group customers into segments based on purchase behavior using K-Means clustering.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Lists - basics"
+      ],
+      "new_skills": [
+        "Unsupervised learning - clustering",
+        "K-Means algorithm",
+        "Data visualization basics"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-008",
+      "title": "Loan Approval Predictor (Decision Tree)",
+      "description": "Predict loan approval outcomes using a decision tree classifier.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Conditionals - if/elif/else"
+      ],
+      "new_skills": [
+        "Decision trees",
+        "Feature importance",
+        "Model evaluation - accuracy/precision"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-009",
+      "title": "Rule-Based Chatbot",
+      "description": "A simple chatbot that responds using pattern matching and keyword rules.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Conditionals - if/elif/else",
+        "String manipulation"
+      ],
+      "new_skills": [
+        "Pattern matching",
+        "Intro to NLP concepts"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-aiml-beg-010",
+      "title": "Student Grade Predictor",
+      "description": "Predict final grades from study hours and attendance using linear regression.",
+      "tier": "beginner",
+      "track": "ai-ml",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Operators & expressions"
+      ],
+      "new_skills": [
+        "Linear regression with scikit-learn",
+        "Data visualization - matplotlib basics"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-int-001",
+      "title": "Twitter Sentiment Analyzer",
+      "description": "Classify tweets as positive, negative, or neutral using TF-IDF and a classifier.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "scikit-learn basics",
+        "Text preprocessing"
+      ],
+      "new_skills": [
+        "TF-IDF vectorization",
+        "NLTK basics",
+        "Sentiment classification"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-aiml-int-002",
+      "title": "Extractive Text Summarizer",
+      "description": "Summarize long articles by extracting the most important sentences.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Text preprocessing"
+      ],
+      "new_skills": [
+        "NLTK/spaCy sentence scoring",
+        "TextRank algorithm"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-aiml-int-003",
+      "title": "Named Entity Recognition Tool",
+      "description": "Extract people, organizations, and locations from text using spaCy.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Text preprocessing"
+      ],
+      "new_skills": [
+        "spaCy pipelines",
+        "Named entity recognition",
+        "POS tagging"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-aiml-int-004",
+      "title": "Fake News Detector",
+      "description": "Classify news articles as real or fake using NLP features and an ML model.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "TF-IDF vectorization",
+        "scikit-learn basics"
+      ],
+      "new_skills": [
+        "Feature engineering for text",
+        "Ensemble classifiers"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-aiml-int-005",
+      "title": "Resume Parser",
+      "description": "Extract structured information (skills, experience) from resumes using NLP and regex.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "String manipulation",
+        "Regular expressions - basics"
+      ],
+      "new_skills": [
+        "spaCy custom pipelines",
+        "Regex - advanced",
+        "PDF text extraction"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-aiml-int-006",
+      "title": "Image Classifier with CNN",
+      "description": "Classify images into categories using a convolutional neural network with Keras.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "numpy basics",
+        "scikit-learn basics"
+      ],
+      "new_skills": [
+        "TensorFlow/Keras basics",
+        "Convolutional neural networks",
+        "Model training loops"
+      ],
+      "domain": [
+        "ai",
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "py-aiml-int-007",
+      "title": "Sales Forecasting Tool",
+      "description": "Forecast future sales from historical time-series data using ARIMA/Prophet.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "pandas basics"
+      ],
+      "new_skills": [
+        "Time-series analysis",
+        "ARIMA/Prophet models",
+        "Trend & seasonality decomposition"
+      ],
+      "domain": [
+        "ai",
+        "data"
+      ]
+    },
+    {
+      "id": "py-aiml-int-008",
+      "title": "Customer Churn Predictor",
+      "description": "Predict which customers are likely to churn using ensemble models and feature engineering.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "pandas basics",
+        "scikit-learn basics"
+      ],
+      "new_skills": [
+        "Feature engineering",
+        "Random Forest/XGBoost",
+        "Handling imbalanced data"
+      ],
+      "domain": [
+        "ai",
+        "ml"
+      ]
+    },
+    {
+      "id": "py-aiml-int-009",
+      "title": "Intent-Based Chatbot",
+      "description": "A chatbot that classifies user intent using ML instead of hardcoded rules.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Rule-based logic",
+        "Text preprocessing"
+      ],
+      "new_skills": [
+        "Intent classification",
+        "Bag-of-words/TF-IDF",
+        "Basic dialogue management"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-aiml-int-010",
+      "title": "Digit Recognition with Deep Learning",
+      "description": "Improve digit recognition accuracy using a deep neural network instead of classic ML.",
+      "tier": "intermediate",
+      "track": "ai-ml",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "scikit-learn classifiers"
+      ],
+      "new_skills": [
+        "Neural network fundamentals",
+        "Keras Sequential API",
+        "Model evaluation - deep learning"
+      ],
+      "domain": [
+        "ai",
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-001",
+      "title": "AI Code Reviewer",
+      "description": "An LLM-powered tool that reviews pull requests and suggests code improvements.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "API - basics",
+        "OOP - classes & objects"
+      ],
+      "new_skills": [
+        "LLM API integration",
+        "Prompt engineering",
+        "Static analysis basics"
+      ],
+      "domain": [
+        "ai",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-002",
+      "title": "Face Recognition Attendance System",
+      "description": "Marks attendance automatically by recognizing faces from a webcam feed.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "Image data as arrays"
+      ],
+      "new_skills": [
+        "OpenCV",
+        "Face detection & encoding",
+        "Real-time video processing"
+      ],
+      "domain": [
+        "ai",
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-003",
+      "title": "AI Text Summarizer with Transformers",
+      "description": "Summarize documents using a pretrained transformer model instead of extractive methods.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "NLTK/spaCy basics"
+      ],
+      "new_skills": [
+        "Transformer models (Hugging Face)",
+        "Abstractive summarization",
+        "Model fine-tuning basics"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-004",
+      "title": "Recommendation System",
+      "description": "Suggests products or content using collaborative filtering.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "pandas basics",
+        "numpy basics"
+      ],
+      "new_skills": [
+        "Collaborative filtering",
+        "Matrix factorization",
+        "Cold-start handling"
+      ],
+      "domain": [
+        "ml",
+        "data"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-005",
+      "title": "End-to-End Machine Learning Pipeline",
+      "description": "A pipeline that automates data ingestion, training, evaluation, and deployment of an ML model.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 8,
+      "prerequisite_skills": [
+        "scikit-learn classifiers",
+        "Feature engineering"
+      ],
+      "new_skills": [
+        "MLOps basics",
+        "Pipeline orchestration",
+        "Model versioning"
+      ],
+      "domain": [
+        "ml",
+        "data"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-006",
+      "title": "Real-Time Object Detection App",
+      "description": "Detect and label objects in a live video stream using YOLO.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "OpenCV"
+      ],
+      "new_skills": [
+        "YOLO/Object detection models",
+        "Real-time inference optimization"
+      ],
+      "domain": [
+        "ai",
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-007",
+      "title": "AI-Powered Resume Screening System",
+      "description": "Rank candidate resumes against a job description using NLP similarity scoring.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "spaCy pipelines",
+        "TF-IDF vectorization"
+      ],
+      "new_skills": [
+        "Semantic similarity/embeddings",
+        "Ranking algorithms"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-008",
+      "title": "Chatbot with Retrieval-Augmented Generation",
+      "description": "A chatbot that answers questions using an LLM combined with a vector database of documents.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "LLM API integration"
+      ],
+      "new_skills": [
+        "Vector databases (embeddings)",
+        "RAG architecture",
+        "Prompt engineering - advanced"
+      ],
+      "domain": [
+        "ai",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-009",
+      "title": "Image Style Transfer App",
+      "description": "Apply the artistic style of one image to another using a neural network.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Convolutional neural networks"
+      ],
+      "new_skills": [
+        "Neural style transfer",
+        "Deep learning with PyTorch/TensorFlow"
+      ],
+      "domain": [
+        "ai",
+        "computer-vision"
+      ]
+    },
+    {
+      "id": "py-aiml-adv-010",
+      "title": "Voice Assistant with Speech Recognition",
+      "description": "A voice-controlled assistant that transcribes speech and executes commands.",
+      "tier": "advanced",
+      "track": "ai-ml",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "API - basics"
+      ],
+      "new_skills": [
+        "Speech-to-text APIs",
+        "Text-to-speech",
+        "Command parsing & intent handling"
+      ],
+      "domain": [
+        "ai",
+        "nlp"
+      ]
+    },
+    {
+      "id": "py-web-beg-001",
+      "title": "Simple Flask Blog",
+      "description": "A single-file Flask blog where posts are stored in memory and rendered with Jinja2.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Basic Python syntax",
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "Flask basics - routes & views",
+        "Jinja2 templating"
+      ],
+      "domain": [
+        "web",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-web-beg-002",
+      "title": "Personal Portfolio Website",
+      "description": "A multi-page personal portfolio site served with Flask and static templates.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "Flask - static files & templates",
+        "HTML/CSS basics for Flask"
+      ],
+      "domain": [
+        "web"
+      ]
+    },
+    {
+      "id": "py-web-beg-003",
+      "title": "Flask URL Shortener",
+      "description": "Shortens long URLs and redirects short codes to their original links.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Dictionaries - basics"
+      ],
+      "new_skills": [
+        "Flask routing with variables",
+        "Redirect & URL generation"
+      ],
+      "domain": [
+        "web",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-web-beg-004",
+      "title": "Flask Guestbook App",
+      "description": "Visitors can leave and view messages on a simple guestbook page.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Lists - basics"
+      ],
+      "new_skills": [
+        "Flask forms - request.form",
+        "In-memory data handling"
+      ],
+      "domain": [
+        "web",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-web-beg-005",
+      "title": "Flask Recipe Sharing App",
+      "description": "Users can submit and browse recipes rendered from templates.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Dictionaries - basics",
+        "Lists - basics"
+      ],
+      "new_skills": [
+        "Flask templating - loops & conditionals",
+        "Basic form handling"
+      ],
+      "domain": [
+        "web"
+      ]
+    },
+    {
+      "id": "py-web-beg-006",
+      "title": "Basic CRUD REST API with Flask",
+      "description": "A REST API for managing a simple resource (e.g. notes) with in-memory storage.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Dictionaries - basics",
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "REST principles - GET/POST/PUT/DELETE",
+        "JSON responses with Flask"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "api"
+      ]
+    },
+    {
+      "id": "py-web-beg-007",
+      "title": "Flask Quote Generator API",
+      "description": "An API endpoint that returns a random quote, with an optional category filter.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "random module"
+      ],
+      "new_skills": [
+        "Flask JSON APIs",
+        "Query parameters"
+      ],
+      "domain": [
+        "web",
+        "api"
+      ]
+    },
+    {
+      "id": "py-web-beg-008",
+      "title": "Flask Contact Form with Email",
+      "description": "A contact form that sends the submitted message to an email address.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "Flask form handling",
+        "smtplib basics"
+      ],
+      "domain": [
+        "web",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-web-beg-009",
+      "title": "Flask Static Site with Templates",
+      "description": "A templated multi-page site using Jinja2 template inheritance.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "Jinja2 template inheritance",
+        "Flask blueprints - intro"
+      ],
+      "domain": [
+        "web"
+      ]
+    },
+    {
+      "id": "py-web-beg-010",
+      "title": "Flask Feedback Collector",
+      "description": "Collects and displays user feedback/ratings on a simple dashboard page.",
+      "tier": "beginner",
+      "track": "web-backend",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Lists - basics",
+        "Dictionaries - basics"
+      ],
+      "new_skills": [
+        "Flask - handling multiple forms",
+        "Basic data aggregation"
+      ],
+      "domain": [
+        "web",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-web-int-001",
+      "title": "Flask Blog with SQLite & Login",
+      "description": "A blog with persistent storage and basic user authentication.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Flask basics - routes & views",
+        "sqlite3 module"
+      ],
+      "new_skills": [
+        "Flask-SQLAlchemy",
+        "Session-based authentication",
+        "Password hashing"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "database"
+      ]
+    },
+    {
+      "id": "py-web-int-002",
+      "title": "Todo App with Flask & SQLAlchemy",
+      "description": "A to-do list web app with persistent tasks using an ORM.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Flask basics - routes & views"
+      ],
+      "new_skills": [
+        "SQLAlchemy ORM",
+        "Database migrations - basics"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "database"
+      ]
+    },
+    {
+      "id": "py-web-int-003",
+      "title": "Flask REST API with JWT Auth",
+      "description": "A REST API secured with JSON Web Token authentication.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "REST principles - GET/POST/PUT/DELETE"
+      ],
+      "new_skills": [
+        "JWT authentication",
+        "Flask-RESTful/Flask-JWT-Extended"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "api",
+        "security"
+      ]
+    },
+    {
+      "id": "py-web-int-004",
+      "title": "Flask E-commerce Product Catalog",
+      "description": "A browsable, searchable product catalog with categories and filtering.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Flask templating - loops & conditionals"
+      ],
+      "new_skills": [
+        "Database querying & filtering",
+        "Pagination"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "database"
+      ]
+    },
+    {
+      "id": "py-web-int-005",
+      "title": "Flask Forum / Discussion Board",
+      "description": "Users can create threads and post replies organized by category.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Flask forms - request.form"
+      ],
+      "new_skills": [
+        "Relational data modeling",
+        "Nested queries"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "database"
+      ]
+    },
+    {
+      "id": "py-web-int-006",
+      "title": "FastAPI Notes App with Database",
+      "description": "A notes API built with FastAPI and a database backend, with input validation.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "REST principles - GET/POST/PUT/DELETE"
+      ],
+      "new_skills": [
+        "FastAPI basics",
+        "Pydantic models",
+        "Async route handlers - intro"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "api",
+        "database"
+      ]
+    },
+    {
+      "id": "py-web-int-007",
+      "title": "Flask File Upload & Sharing Service",
+      "description": "Users can upload files and generate shareable download links.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Flask form handling"
+      ],
+      "new_skills": [
+        "File upload handling",
+        "Secure filename storage"
+      ],
+      "domain": [
+        "web",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-web-int-008",
+      "title": "Flask Job Board Application",
+      "description": "Employers post jobs and job seekers can browse and filter listings.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Database querying & filtering"
+      ],
+      "new_skills": [
+        "Multi-role data modeling",
+        "Search & filter queries"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "database"
+      ]
+    },
+    {
+      "id": "py-web-int-009",
+      "title": "Flask Real Estate Listing App",
+      "description": "Property listings with images, filters, and detail pages.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Flask - static files & templates"
+      ],
+      "new_skills": [
+        "Image upload handling",
+        "Advanced filtering queries"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "database"
+      ]
+    },
+    {
+      "id": "py-web-int-010",
+      "title": "Flask Recipe API with Search & Filter",
+      "description": "A recipe REST API supporting search, tags, and filtering by ingredients.",
+      "tier": "intermediate",
+      "track": "web-backend",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Flask JSON APIs"
+      ],
+      "new_skills": [
+        "Full-text search basics",
+        "Query parameter filtering"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "api"
+      ]
+    },
+    {
+      "id": "py-web-adv-001",
+      "title": "Flask Blog Application",
+      "description": "A full-featured blog with authentication, comments, and an admin panel.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "Flask-SQLAlchemy",
+        "Session-based authentication"
+      ],
+      "new_skills": [
+        "Role-based access control",
+        "Admin dashboard design"
+      ],
+      "domain": [
+        "web",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-web-adv-002",
+      "title": "FastAPI REST API",
+      "description": "A production-style REST API with FastAPI including validation, docs, and testing.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "FastAPI basics",
+        "Pydantic models"
+      ],
+      "new_skills": [
+        "Automatic API docs (OpenAPI)",
+        "Dependency injection",
+        "API testing"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "api"
+      ]
+    },
+    {
+      "id": "py-web-adv-003",
+      "title": "Authentication Service",
+      "description": "A standalone auth microservice issuing and validating tokens for other services.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "JWT authentication"
+      ],
+      "new_skills": [
+        "OAuth2 flows",
+        "Refresh tokens",
+        "Service-to-service auth"
+      ],
+      "domain": [
+        "backend",
+        "security",
+        "api"
+      ]
+    },
+    {
+      "id": "py-web-adv-004",
+      "title": "Stock Price Tracker",
+      "description": "Tracks and visualizes stock prices in real time using a live market API.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "requests library",
+        "API - basics"
+      ],
+      "new_skills": [
+        "Websocket/live data feeds",
+        "Data visualization for web"
+      ],
+      "domain": [
+        "web",
+        "api",
+        "finance",
+        "data"
+      ]
+    },
+    {
+      "id": "py-web-adv-005",
+      "title": "Dockerized Flask Application",
+      "description": "A Flask app fully containerized with Docker and docker-compose for local development.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "Flask basics - routes & views"
+      ],
+      "new_skills": [
+        "Dockerfile authoring",
+        "docker-compose",
+        "Environment configuration"
+      ],
+      "domain": [
+        "web",
+        "devops"
+      ]
+    },
+    {
+      "id": "py-web-adv-006",
+      "title": "E-commerce Backend",
+      "description": "A full backend for an online store: products, cart, checkout, and orders.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "SQLAlchemy ORM",
+        "JWT authentication"
+      ],
+      "new_skills": [
+        "Transaction handling",
+        "Order/payment state machines"
+      ],
+      "domain": [
+        "backend",
+        "database",
+        "api"
+      ]
+    },
+    {
+      "id": "py-web-adv-007",
+      "title": "Multi-Tenant SaaS Backend",
+      "description": "A backend architecture that isolates data and features per customer organization.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Role-based access control"
+      ],
+      "new_skills": [
+        "Multi-tenancy patterns",
+        "Data isolation strategies"
+      ],
+      "domain": [
+        "backend",
+        "architecture"
+      ]
+    },
+    {
+      "id": "py-web-adv-008",
+      "title": "GraphQL API with FastAPI",
+      "description": "A GraphQL API layer built on top of FastAPI for flexible client queries.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "FastAPI basics"
+      ],
+      "new_skills": [
+        "GraphQL schema design",
+        "Strawberry/Ariadne libraries"
+      ],
+      "domain": [
+        "web",
+        "backend",
+        "api"
+      ]
+    },
+    {
+      "id": "py-web-adv-009",
+      "title": "Real-Time Notification Service",
+      "description": "Pushes live notifications to connected clients using WebSockets.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Websocket/live data feeds"
+      ],
+      "new_skills": [
+        "WebSocket server design",
+        "Pub/sub messaging"
+      ],
+      "domain": [
+        "backend",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-web-adv-010",
+      "title": "Payment Gateway Integration Service",
+      "description": "Integrates a third-party payment provider (e.g. Stripe) with webhooks and idempotency.",
+      "tier": "advanced",
+      "track": "web-backend",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Transaction handling"
+      ],
+      "new_skills": [
+        "Payment provider APIs",
+        "Webhook verification",
+        "Idempotent request handling"
+      ],
+      "domain": [
+        "backend",
+        "api",
+        "finance"
+      ]
+    },
+    {
+      "id": "py-auto-beg-001",
+      "title": "File Renamer & Organizer",
+      "description": "Batch renames and sorts files in a directory according to configurable rules.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Loops - for/while basics",
+        "File I/O"
+      ],
+      "new_skills": [
+        "os module",
+        "Path manipulation"
+      ],
+      "domain": [
+        "automation",
+        "cli"
+      ]
+    },
+    {
+      "id": "py-auto-beg-002",
+      "title": "Automated Email Sender",
+      "description": "Sends templated emails to a list of recipients from a CSV file.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "File I/O",
+        "Loops - for/while basics"
+      ],
+      "new_skills": [
+        "smtplib basics",
+        "CSV file handling"
+      ],
+      "domain": [
+        "automation"
+      ]
+    },
+    {
+      "id": "py-auto-beg-003",
+      "title": "Single-Page Web Scraper",
+      "description": "Extracts specific data (titles, prices) from one webpage and saves it to a file.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "File I/O"
+      ],
+      "new_skills": [
+        "requests library",
+        "BeautifulSoup basics"
+      ],
+      "domain": [
+        "automation",
+        "web"
+      ]
+    },
+    {
+      "id": "py-auto-beg-004",
+      "title": "Screenshot Automation Tool",
+      "description": "Automatically takes and saves screenshots of the desktop or a webpage on a schedule.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "File I/O"
+      ],
+      "new_skills": [
+        "pyautogui/selenium basics",
+        "Scheduling with time module"
+      ],
+      "domain": [
+        "automation",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-auto-beg-005",
+      "title": "Simple Backup Script",
+      "description": "Copies specified folders to a backup location on a schedule, with timestamped folders.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "File I/O"
+      ],
+      "new_skills": [
+        "shutil module",
+        "Automated scheduling basics"
+      ],
+      "domain": [
+        "automation"
+      ]
+    },
+    {
+      "id": "py-auto-beg-006",
+      "title": "PDF to Image Converter",
+      "description": "Converts each page of a PDF into an image file.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "File I/O"
+      ],
+      "new_skills": [
+        "Working with third-party libraries (pdf2image)",
+        "Batch file processing"
+      ],
+      "domain": [
+        "automation",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-auto-beg-007",
+      "title": "Duplicate File Finder",
+      "description": "Scans a directory tree and identifies duplicate files using content hashing.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Loops - for/while basics",
+        "File I/O"
+      ],
+      "new_skills": [
+        "hashlib module",
+        "Recursive directory traversal"
+      ],
+      "domain": [
+        "automation",
+        "cli"
+      ]
+    },
+    {
+      "id": "py-auto-beg-008",
+      "title": "Automated Birthday Reminder",
+      "description": "Checks a contacts file daily and sends a reminder email for upcoming birthdays.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "File I/O",
+        "Conditionals - if/elif/else"
+      ],
+      "new_skills": [
+        "datetime module",
+        "Scheduled scripts basics"
+      ],
+      "domain": [
+        "automation"
+      ]
+    },
+    {
+      "id": "py-auto-beg-009",
+      "title": "Log File Cleaner",
+      "description": "Deletes or archives log files older than a configurable number of days.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "File I/O",
+        "Conditionals - if/elif/else"
+      ],
+      "new_skills": [
+        "os/shutil modules",
+        "datetime module"
+      ],
+      "domain": [
+        "automation",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-auto-beg-010",
+      "title": "Simple Task Runner Script",
+      "description": "Runs a sequence of shell commands defined in a config file and reports success/failure.",
+      "tier": "beginner",
+      "track": "automation-devops",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "File I/O",
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "subprocess module",
+        "Basic config parsing"
+      ],
+      "domain": [
+        "automation",
+        "cli"
+      ]
+    },
+    {
+      "id": "py-auto-int-001",
+      "title": "Multi-Page Web Scraper with Pagination",
+      "description": "Crawls multiple paginated pages of a site and aggregates the scraped data.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "requests library",
+        "BeautifulSoup basics"
+      ],
+      "new_skills": [
+        "Pagination handling",
+        "Rate limiting/delays",
+        "Data deduplication"
+      ],
+      "domain": [
+        "automation",
+        "web"
+      ]
+    },
+    {
+      "id": "py-auto-int-002",
+      "title": "Automated Report Generator",
+      "description": "Generates formatted Excel/PDF reports from raw data on a schedule.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "CSV file handling"
+      ],
+      "new_skills": [
+        "openpyxl/reportlab",
+        "Report templating"
+      ],
+      "domain": [
+        "automation",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-auto-int-003",
+      "title": "Social Media Post Scheduler",
+      "description": "Schedules and posts content to a social platform's API at specified times.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "API - basics"
+      ],
+      "new_skills": [
+        "OAuth for APIs",
+        "Job scheduling (APScheduler)"
+      ],
+      "domain": [
+        "automation",
+        "api"
+      ]
+    },
+    {
+      "id": "py-auto-int-004",
+      "title": "System Health Monitor Script",
+      "description": "Monitors CPU, memory, and disk usage, alerting when thresholds are exceeded.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Conditionals - if/elif/else"
+      ],
+      "new_skills": [
+        "psutil module",
+        "Alerting via email/Slack webhook"
+      ],
+      "domain": [
+        "automation",
+        "devops"
+      ]
+    },
+    {
+      "id": "py-auto-int-005",
+      "title": "Automated Testing Script with Selenium",
+      "description": "Automates browser interactions to test a website's core user flows.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "requests library"
+      ],
+      "new_skills": [
+        "Selenium WebDriver",
+        "Test assertions & reporting"
+      ],
+      "domain": [
+        "automation",
+        "web"
+      ]
+    },
+    {
+      "id": "py-auto-int-006",
+      "title": "Bulk Image Resizer & Watermarker",
+      "description": "Batch-processes a folder of images to resize and add a watermark.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "File I/O"
+      ],
+      "new_skills": [
+        "Pillow (PIL) - batch processing",
+        "Image transformations"
+      ],
+      "domain": [
+        "automation",
+        "media"
+      ]
+    },
+    {
+      "id": "py-auto-int-007",
+      "title": "Automated Data Pipeline (CSV to DB)",
+      "description": "Watches a folder for new CSV files and loads them into a database automatically.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "CSV file handling",
+        "sqlite3 module"
+      ],
+      "new_skills": [
+        "Watchdog/file monitoring",
+        "ETL basics"
+      ],
+      "domain": [
+        "automation",
+        "database",
+        "data"
+      ]
+    },
+    {
+      "id": "py-auto-int-008",
+      "title": "Cron-Based Task Scheduler",
+      "description": "A script scheduler that runs Python jobs at defined intervals, similar to cron.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "subprocess module"
+      ],
+      "new_skills": [
+        "APScheduler",
+        "Job persistence & retries"
+      ],
+      "domain": [
+        "automation",
+        "devops"
+      ]
+    },
+    {
+      "id": "py-auto-int-009",
+      "title": "Automated File Sync Tool",
+      "description": "Syncs a local folder with a cloud storage bucket, uploading only changed files.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "os/shutil modules"
+      ],
+      "new_skills": [
+        "Cloud storage SDKs (boto3/S3)",
+        "Change detection via hashing"
+      ],
+      "domain": [
+        "automation",
+        "devops"
+      ]
+    },
+    {
+      "id": "py-auto-int-010",
+      "title": "Website Uptime Monitor",
+      "description": "Periodically checks a list of URLs and alerts if any go down.",
+      "tier": "intermediate",
+      "track": "automation-devops",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "requests library"
+      ],
+      "new_skills": [
+        "Scheduled monitoring loops",
+        "Notification integrations"
+      ],
+      "domain": [
+        "automation",
+        "devops"
+      ]
+    },
+    {
+      "id": "py-auto-adv-001",
+      "title": "Image Compressor Service",
+      "description": "A service that compresses uploaded images in bulk while preserving quality thresholds.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Hard",
+      "difficulty_score": 6,
+      "prerequisite_skills": [
+        "Pillow (PIL) - batch processing"
+      ],
+      "new_skills": [
+        "Image compression algorithms",
+        "Batch processing at scale"
+      ],
+      "domain": [
+        "automation",
+        "utility",
+        "media"
+      ]
+    },
+    {
+      "id": "py-auto-adv-002",
+      "title": "Email Automation Platform",
+      "description": "A rules-based platform that triggers automated email sequences based on user events.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Hard",
+      "difficulty_score": 6,
+      "prerequisite_skills": [
+        "smtplib basics",
+        "APScheduler"
+      ],
+      "new_skills": [
+        "Event-driven architecture",
+        "Template personalization at scale"
+      ],
+      "domain": [
+        "automation",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-auto-adv-003",
+      "title": "Distributed Task Scheduler",
+      "description": "A scheduler that distributes and executes background jobs across multiple worker processes.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Hard",
+      "difficulty_score": 6,
+      "prerequisite_skills": [
+        "APScheduler",
+        "Job persistence & retries"
+      ],
+      "new_skills": [
+        "Celery/RQ task queues",
+        "Worker pool management"
+      ],
+      "domain": [
+        "automation",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-auto-adv-004",
+      "title": "CI/CD Deployment Pipeline",
+      "description": "An automated pipeline that tests, builds, and deploys an application on every commit.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "subprocess module"
+      ],
+      "new_skills": [
+        "GitHub Actions/GitLab CI",
+        "Automated deployment strategies"
+      ],
+      "domain": [
+        "devops"
+      ]
+    },
+    {
+      "id": "py-auto-adv-005",
+      "title": "Distributed Web Crawler",
+      "description": "A crawler that distributes URL fetching across multiple workers and stores results centrally.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Pagination handling",
+        "Rate limiting/delays"
+      ],
+      "new_skills": [
+        "Distributed task queues",
+        "Deduplication at scale"
+      ],
+      "domain": [
+        "web",
+        "automation",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": "py-auto-adv-006",
+      "title": "Microservices Architecture Demo",
+      "description": "A set of independently deployable services communicating over REST/message queues.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Event-driven architecture"
+      ],
+      "new_skills": [
+        "Service discovery",
+        "Inter-service communication patterns"
+      ],
+      "domain": [
+        "backend",
+        "devops"
+      ]
+    },
+    {
+      "id": "py-auto-adv-007",
+      "title": "Infrastructure-as-Code Tool",
+      "description": "A tool that provisions cloud resources declaratively from a configuration file.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Cloud storage SDKs (boto3/S3)"
+      ],
+      "new_skills": [
+        "IaC concepts",
+        "Cloud provider APIs"
+      ],
+      "domain": [
+        "devops"
+      ]
+    },
+    {
+      "id": "py-auto-adv-008",
+      "title": "Kubernetes Deployment Automation",
+      "description": "Automates building, pushing, and deploying containerized apps to a Kubernetes cluster.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Dockerfile authoring"
+      ],
+      "new_skills": [
+        "Kubernetes manifests",
+        "kubectl automation via Python"
+      ],
+      "domain": [
+        "devops"
+      ]
+    },
+    {
+      "id": "py-auto-adv-009",
+      "title": "Log Aggregation & Monitoring System",
+      "description": "Collects logs from multiple services and provides a searchable, alertable dashboard.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "psutil module"
+      ],
+      "new_skills": [
+        "Log aggregation pipelines (ELK-style)",
+        "Alerting rules engine"
+      ],
+      "domain": [
+        "devops"
+      ]
+    },
+    {
+      "id": "py-auto-adv-010",
+      "title": "Automated Cloud Cost Optimizer",
+      "description": "Analyzes cloud resource usage and automatically flags or shuts down underused resources.",
+      "tier": "advanced",
+      "track": "automation-devops",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Cloud provider APIs"
+      ],
+      "new_skills": [
+        "Cost analysis APIs",
+        "Automated resource lifecycle management"
+      ],
+      "domain": [
+        "devops"
+      ]
+    },
+    {
+      "id": "py-sec-beg-001",
+      "title": "Simple Port Scanner",
+      "description": "Scans a range of ports on a target host and reports which are open.",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Loops - for/while basics"
+      ],
+      "new_skills": [
+        "socket module basics",
+        "TCP connection basics"
+      ],
+      "domain": [
+        "security",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-beg-002",
+      "title": "Caesar Cipher Tool",
+      "description": "Encrypts and decrypts text messages using the classic Caesar cipher.",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "String manipulation - basics"
+      ],
+      "new_skills": [
+        "Character encoding math",
+        "Basic cryptography concepts"
+      ],
+      "domain": [
+        "security"
+      ]
+    },
+    {
+      "id": "py-sec-beg-003",
+      "title": "Basic Chat Client-Server",
+      "description": "A single-client chat app where messages are sent between a client and server over sockets.",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Functions - basics"
+      ],
+      "new_skills": [
+        "socket module - client/server",
+        "Basic networking protocols"
+      ],
+      "domain": [
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-beg-004",
+      "title": "Password Strength Checker",
+      "description": "Evaluates password strength against a set of security rules and gives feedback.",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "Conditionals - if/elif/else",
+        "Regular expressions - basics"
+      ],
+      "new_skills": [
+        "Regex - pattern validation",
+        "Password policy design"
+      ],
+      "domain": [
+        "security"
+      ]
+    },
+    {
+      "id": "py-sec-beg-005",
+      "title": "File Integrity Checker",
+      "description": "Detects if a file has been modified by comparing cryptographic hashes over time.",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "File I/O"
+      ],
+      "new_skills": [
+        "hashlib module",
+        "Checksum verification"
+      ],
+      "domain": [
+        "security",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-sec-beg-006",
+      "title": "Simple Firewall Rule Simulator",
+      "description": "Simulates allow/deny firewall rules against sample network traffic.",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Conditionals - if/elif/else"
+      ],
+      "new_skills": [
+        "Rule-matching logic",
+        "Basic networking concepts"
+      ],
+      "domain": [
+        "security",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-beg-007",
+      "title": "IP Address Lookup Tool",
+      "description": "Looks up geolocation and ISP info for a given IP address using a public API.",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "requests library"
+      ],
+      "new_skills": [
+        "API - basics",
+        "IP/geolocation concepts"
+      ],
+      "domain": [
+        "networking",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-sec-beg-008",
+      "title": "Network Ping Sweeper",
+      "description": "Pings a range of IP addresses to determine which hosts are online.",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "Loops - for/while basics"
+      ],
+      "new_skills": [
+        "subprocess module",
+        "Basic network scanning"
+      ],
+      "domain": [
+        "networking",
+        "security"
+      ]
+    },
+    {
+      "id": "py-sec-beg-009",
+      "title": "Simple File Encryption Tool",
+      "description": "Encrypts and decrypts files using symmetric encryption (Fernet).",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 2,
+      "prerequisite_skills": [
+        "File I/O"
+      ],
+      "new_skills": [
+        "cryptography library - Fernet",
+        "Symmetric encryption basics"
+      ],
+      "domain": [
+        "security"
+      ]
+    },
+    {
+      "id": "py-sec-beg-010",
+      "title": "HTTP Request Logger",
+      "description": "A basic proxy/server that logs details of incoming HTTP requests for inspection.",
+      "tier": "beginner",
+      "track": "security-networking",
+      "difficulty_label": "Easy",
+      "difficulty_score": 3,
+      "prerequisite_skills": [
+        "socket module basics"
+      ],
+      "new_skills": [
+        "HTTP protocol basics",
+        "Simple server implementation"
+      ],
+      "domain": [
+        "networking",
+        "security"
+      ]
+    },
+    {
+      "id": "py-sec-int-001",
+      "title": "Multi-Client Chat Server",
+      "description": "A chat server that handles multiple simultaneous clients using threading.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "socket module - client/server"
+      ],
+      "new_skills": [
+        "Threading for concurrency",
+        "Broadcast messaging patterns"
+      ],
+      "domain": [
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-int-002",
+      "title": "Network Packet Sniffer",
+      "description": "Captures and analyzes network packets on an interface using Scapy.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Basic networking protocols"
+      ],
+      "new_skills": [
+        "Scapy basics",
+        "Packet structure analysis"
+      ],
+      "domain": [
+        "security",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-int-003",
+      "title": "Two-Factor Authentication System",
+      "description": "Adds a TOTP-based second factor to a login flow.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Password policy design"
+      ],
+      "new_skills": [
+        "TOTP/HOTP algorithms",
+        "pyotp library"
+      ],
+      "domain": [
+        "security"
+      ]
+    },
+    {
+      "id": "py-sec-int-004",
+      "title": "Secure File Transfer Tool",
+      "description": "Transfers files between machines with encryption in transit.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "socket module - client/server",
+        "cryptography library - Fernet"
+      ],
+      "new_skills": [
+        "Encrypted socket communication",
+        "Chunked file transfer"
+      ],
+      "domain": [
+        "security",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-int-005",
+      "title": "Basic Vulnerability Scanner",
+      "description": "Scans a host for open ports and identifies service banners to flag potential risks.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "socket module basics"
+      ],
+      "new_skills": [
+        "Banner grabbing",
+        "Basic CVE/service fingerprinting concepts"
+      ],
+      "domain": [
+        "security",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-int-006",
+      "title": "VPN Traffic Analyzer",
+      "description": "Analyzes and visualizes basic traffic patterns through a VPN-connected interface.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Packet structure analysis"
+      ],
+      "new_skills": [
+        "Traffic pattern analysis",
+        "Data visualization for network data"
+      ],
+      "domain": [
+        "security",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-int-007",
+      "title": "Login Brute-Force Protection System",
+      "description": "Detects and blocks repeated failed login attempts using rate limiting.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "Rule-matching logic"
+      ],
+      "new_skills": [
+        "Rate limiting algorithms",
+        "IP blocklisting logic"
+      ],
+      "domain": [
+        "security",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-sec-int-008",
+      "title": "Encrypted Messaging App",
+      "description": "A messaging app where messages are end-to-end encrypted between client pairs.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Symmetric encryption basics"
+      ],
+      "new_skills": [
+        "Asymmetric encryption (RSA)",
+        "Key exchange basics"
+      ],
+      "domain": [
+        "security",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-int-009",
+      "title": "Network Bandwidth Monitor",
+      "description": "Tracks and displays real-time bandwidth usage per process or interface.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 4,
+      "prerequisite_skills": [
+        "subprocess module"
+      ],
+      "new_skills": [
+        "psutil network stats",
+        "Real-time data display"
+      ],
+      "domain": [
+        "networking",
+        "utility"
+      ]
+    },
+    {
+      "id": "py-sec-int-010",
+      "title": "Security Log Analyzer",
+      "description": "Parses server/auth logs to detect suspicious patterns like repeated failed logins.",
+      "tier": "intermediate",
+      "track": "security-networking",
+      "difficulty_label": "Medium",
+      "difficulty_score": 5,
+      "prerequisite_skills": [
+        "Regex - pattern validation"
+      ],
+      "new_skills": [
+        "Log parsing at scale",
+        "Anomaly detection - rule based"
+      ],
+      "domain": [
+        "security",
+        "data"
+      ]
+    },
+    {
+      "id": "py-sec-adv-001",
+      "title": "Password Manager",
+      "description": "A secure, encrypted password vault with a master-password unlock.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "cryptography library - Fernet",
+        "Asymmetric encryption (RSA)"
+      ],
+      "new_skills": [
+        "Key derivation functions (PBKDF2)",
+        "Secure local storage design"
+      ],
+      "domain": [
+        "security",
+        "database"
+      ]
+    },
+    {
+      "id": "py-sec-adv-002",
+      "title": "Chat Application",
+      "description": "A full-featured encrypted chat application with user presence and message history.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "Threading for concurrency",
+        "Encrypted socket communication"
+      ],
+      "new_skills": [
+        "Persistent encrypted storage",
+        "Protocol design"
+      ],
+      "domain": [
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-adv-003",
+      "title": "Real-Time Chat Server",
+      "description": "A scalable chat server supporting rooms, using WebSockets for real-time delivery.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Hard",
+      "difficulty_score": 7,
+      "prerequisite_skills": [
+        "Broadcast messaging patterns"
+      ],
+      "new_skills": [
+        "WebSocket protocol",
+        "Horizontal scaling of stateful servers"
+      ],
+      "domain": [
+        "backend",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-adv-004",
+      "title": "Intrusion Detection System",
+      "description": "Monitors network/system activity and flags behavior matching known attack patterns.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Anomaly detection - rule based"
+      ],
+      "new_skills": [
+        "Signature-based detection",
+        "Rule engine design"
+      ],
+      "domain": [
+        "security",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-adv-005",
+      "title": "Secure API Gateway with Rate Limiting",
+      "description": "A gateway that authenticates, rate-limits, and routes requests to backend services.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Rate limiting algorithms",
+        "JWT authentication"
+      ],
+      "new_skills": [
+        "API gateway patterns",
+        "Distributed rate limiting"
+      ],
+      "domain": [
+        "security",
+        "backend",
+        "api"
+      ]
+    },
+    {
+      "id": "py-sec-adv-006",
+      "title": "End-to-End Encrypted File Sharing System",
+      "description": "A platform for sharing files where only sender and recipient can decrypt content.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Asymmetric encryption (RSA)",
+        "Key exchange basics"
+      ],
+      "new_skills": [
+        "Hybrid encryption schemes",
+        "Secure key management"
+      ],
+      "domain": [
+        "security",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-sec-adv-007",
+      "title": "Network Traffic Analyzer with Anomaly Detection",
+      "description": "Uses statistical/ML techniques to flag unusual network traffic in real time.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Traffic pattern analysis"
+      ],
+      "new_skills": [
+        "Statistical anomaly detection",
+        "Streaming data analysis"
+      ],
+      "domain": [
+        "security",
+        "networking",
+        "data"
+      ]
+    },
+    {
+      "id": "py-sec-adv-008",
+      "title": "Multi-Factor Authentication Service",
+      "description": "A standalone MFA microservice supporting TOTP, SMS, and backup codes.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "TOTP/HOTP algorithms"
+      ],
+      "new_skills": [
+        "MFA protocol design",
+        "Service architecture for auth"
+      ],
+      "domain": [
+        "security",
+        "backend"
+      ]
+    },
+    {
+      "id": "py-sec-adv-009",
+      "title": "Distributed Firewall Management System",
+      "description": "Centrally manages and pushes firewall rules to multiple distributed nodes.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "Rule engine design"
+      ],
+      "new_skills": [
+        "Distributed configuration management",
+        "Policy synchronization"
+      ],
+      "domain": [
+        "security",
+        "devops",
+        "networking"
+      ]
+    },
+    {
+      "id": "py-sec-adv-010",
+      "title": "Zero-Trust Access Control System",
+      "description": "Implements per-request identity verification instead of network-perimeter trust.",
+      "tier": "advanced",
+      "track": "security-networking",
+      "difficulty_label": "Expert",
+      "difficulty_score": 9,
+      "prerequisite_skills": [
+        "API gateway patterns"
+      ],
+      "new_skills": [
+        "Zero-trust architecture principles",
+        "Fine-grained policy enforcement"
+      ],
+      "domain": [
+        "security",
+        "backend",
+        "architecture"
+      ]
+    }
+  ]
+}
