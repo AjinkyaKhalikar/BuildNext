@@ -85,7 +85,10 @@ Project Information:
         return {"error": f"Couldn't start the tutor session: {e}"}
 
     session_id = str(uuid.uuid4())
-    _sessions[session_id] = {"chat": chat, "title": proj_details["title"]}
+    # Keep a reference to `client` here too - if only `chat` is stored, the
+    # client object has no other referrers and can get garbage-collected,
+    # which closes its underlying HTTP connection and breaks later sends.
+    _sessions[session_id] = {"client": client, "chat": chat, "title": proj_details["title"]}
 
     intro_messages = [f"Tutor ready for '{proj_details['title']}'."]
 
@@ -141,83 +144,6 @@ def ai_tutor(proj_id, projects, missing_prereqs=None):
             print("Try again, or type 'exit' to quit.")
         else:
             print_response(response["text"])
-
-
-# def ai_tutor(proj_id, projects, missing_prereqs=None):
-#     """
-#     missing_prereqs: optional list of skills the user was missing/weak on
-#     for this project (from score_project's 'missing_prereqs'). Lets the
-#     tutor calibrate - explain those from scratch, assume the rest.
-#     """
-#     if not API_KEY:
-#         print("GEMINI_API_KEY not found. Check your .env file.")
-#         return
-
-#     try:
-#         proj_details = next(p for p in projects if p["id"] == proj_id)
-#     except StopIteration:
-#         print(f"No project found with id '{proj_id}'.")
-#         return
-
-#     missing_note = ""
-#     if missing_prereqs:
-#         missing_note = f"""
-#         The learner is weaker on these specific prerequisites, so explain
-#         them more from first principles if they come up. Assume they are
-#         comfortable with everything else listed under prerequisite_skills:
-#         {missing_prereqs}
-#         """
-
-#     SYSTEM_PROMPT = f"""
-#         You are an expert programming mentor.
-
-#         You help developers complete projects.
-
-#         Rules:
-#         - Never give complete code.
-#         - Give hints, not solutions.
-#         - Explain concepts.
-#         - Help build logic.
-#         - Use pseudocode if necessary.
-#         - Ask questions that help the learner think.
-#         {missing_note}
-#     """
-
-#     prompt = f"""{SYSTEM_PROMPT}
-
-# Project Information:
-# {json.dumps(proj_details, indent=2)}"""
-
-#     try:
-#         client = genai.Client(api_key=API_KEY)
-#         chat = client.chats.create(model="gemini-3.1-flash-lite")
-#         chat.send_message(prompt)
-
-#     except Exception as e:
-#         print(f"Couldn't start the tutor session: {e}")
-#         return
-
-#     print(f"\nTutor ready for '{proj_details['title']}'. Type 'exit' to quit.\n")
-
-#     aiml_match = re.search(r'aiml', proj_id)
-#     if aiml_match:
-#         suggest_dataset = chat.send_message("Suggest user a free dataset link or where to find dataset for the project")
-#         print_response(suggest_dataset.text)
-
-#     while True:
-#         question = input("You: ").strip()
-
-#         if question.lower() in ("exit", "quit"):
-#             break
-#         if not question:
-#             continue
-
-#         try:
-#             response = chat.send_message(question)
-#             print_response(response.text)
-#         except Exception as e:
-#             print(f"Something went wrong reaching the tutor: {e}")
-#             print("Try again, or type 'exit' to quit.")
 
 if __name__ == '__main__':
     proj_id = input("Please enter project id: ")

@@ -706,7 +706,7 @@
         "ai",
         "ml"
       ]
-    },
+    }, 
     {
       "id": "py-aiml-beg-003",
       "title": "Titanic Survival Predictor",

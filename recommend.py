@@ -14,7 +14,7 @@ def get_tracks():
     """Pure: just exposes track metadata for a UI to render (dropdown, cards, etc.)."""
     return tracks
 
-def get_domain_skills(domain, projects):
+def get_domain_skills(domain, projects = projects):
     """
     All prerequisite skills that appear anywhere in this domain's projects,
     ordered beginner -> intermediate -> advanced so the list itself reads
@@ -34,20 +34,20 @@ def get_domain_skills(domain, projects):
                 ordered.append(s)
     return ordered
 
-def resolve_skill_selection(domain_skills, indices):
-    """
-    Pure: turns a list of 1-based indices into the resolved skill set.
-    Raises ValueError on an out-of-range index so callers (CLI or API) can
-    handle invalid input however fits — reprompt, or return a 400.
-    """
-    resolved = set()
-    for i in indices:
-        if not (1 <= i <= len(domain_skills)):
-            raise ValueError(f"Index {i} is out of range (1-{len(domain_skills)}).")
-        resolved.add(domain_skills[i - 1].lower())
-    return resolved
+# def resolve_skill_selection(domain_skills, indices):
+#     """
+#     Pure: turns a list of 1-based indices into the resolved skill set.
+#     Raises ValueError on an out-of-range index so callers (CLI or API) can
+#     handle invalid input however fits — reprompt, or return a 400.
+#     """
+#     resolved = set()
+#     for i in indices:
+#         if not (1 <= i <= len(domain_skills)):
+#             raise ValueError(f"Index {i} is out of range (1-{len(domain_skills)}).")
+#         resolved.add(domain_skills[i - 1].lower())
+#     return resolved
 
-def get_user_level(domain, projects, user_skills):
+def get_user_level(domain, user_skills, projects= projects):
     """
     Infer how ready the user is for each tier of a given domain by measuring
     how many prerequisite skills of that tier's projects they already have.
@@ -88,7 +88,7 @@ def suggest_projects(domain, level, user_skills, top_n=5):
     if not candidates:
         print(f"No projects found for domain '{domain}' at tier '{level}'.")
         return []
-
+ 
     def rank_key(p):
         prereqs = {s.lower() for s in p["prerequisite_skills"]}
         missing = prereqs - user_skills
